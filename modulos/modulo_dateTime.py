@@ -10,9 +10,9 @@ agora=datetime.now()#pega a data e hora atual
 print(agora)
 data=agora.date()#pega só a data
 print(data)
-hoje=date.today()
+hoje=date.today() #pega só a data atual
 print(hoje)
-dia=hoje.day
+dia=hoje.day #pega só o dia
 print(dia)
 
 data_futura=hoje+timedelta(days=365) #adiciona 365 dias a data atual
